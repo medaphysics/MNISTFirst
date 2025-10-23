@@ -1,0 +1,8 @@
+# (opsiyonel) configs/mnist.yaml
+# Şimdilik kullanılmıyor ama ileride Hydra / pydantic-settings ile bağlayabilirsin.
+epochs: 3
+batch_size: 128
+lr: 0.001
+val_split: 0.1
+data_raw_dir: data/raw
+results_dir: results
