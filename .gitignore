@@ -20,10 +20,16 @@ pip-wheel-metadata/
 .idea/
 
 # Data & results (ham/veri-türevleri repo'ya girmesin)
-data/
-!data/.gitkeep
-results/
-!results/.gitkeep
+docs/*
+!docs/.gitkeep
+
+data/**
+!data/**/
+!data/**/.gitkeep
+
+results/**
+!results/**/
+!results/**/.gitkeep
 
 # Models büyük dosyalar
 *.h5
