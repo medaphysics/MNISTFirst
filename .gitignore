@@ -1,0 +1,34 @@
+tmp
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.venv/
+venv/
+.env
+.env.*
+pip-wheel-metadata/
+
+# Jupyter
+.ipynb_checkpoints/
+.notebooks_cache/
+
+# OS/IDE
+.DS_Store
+.vscode/
+.idea/
+
+# Data & results (ham/veri-türevleri repo'ya girmesin)
+data/
+!data/.gitkeep
+results/
+!results/.gitkeep
+
+# Models büyük dosyalar
+*.h5
+*.pt
+*.pth
+*.joblib
+*.pickle
+*.pkl

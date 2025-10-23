@@ -1,0 +1,15 @@
+{
+    "exclude_list": [
+        ".git",
+        ".pytest_cache",
+        "__pycache__"    
+    ],
+    "exclude_paths": [
+        
+    ],
+    "is_delete_node": false,
+    "is_include_default": true,
+    "is_show_enable": false,
+    "is_prune_enable": true,
+    "is_mark_disabled_subtree": true
+}
